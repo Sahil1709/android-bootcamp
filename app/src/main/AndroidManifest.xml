@@ -19,8 +19,8 @@
             android:theme="@style/Theme.MySampleApp.NoActionBar"
             android:parentActivityName=".MainActivity">
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".AgeToMinutes"
